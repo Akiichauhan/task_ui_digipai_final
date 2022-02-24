@@ -1,0 +1,44 @@
+name: task_ui_digipai_final
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_staggered_grid_view: ^0.6.1
+  transparent_image: ^2.0.0-nullsafety.0
+  dotted_line: 3.1.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:  
+    - images/air.jpg
+    - images/grid_one.jpg
+    - images/grid_two.jpg
+    - images/grid_three.jpg
+    - images/grid_four.jpg
+    - images/grid_five.jpg
+    - images/grid_six.jpg
+    - images/grid_seven.jpg
+    - images/grid_eight.jpg
+    - images/grid_nine.jpg
+    - images/grid_ten.jpg
+    - images/taj.jpg
+  
+  
